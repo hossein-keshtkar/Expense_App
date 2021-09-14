@@ -1,0 +1,12 @@
+.expenses-filter__control {
+  display: grid;
+  max-width: 100px;
+  color: #fff;
+  font-weight: bold;
+  right: 0;
+  margin-bottom: 10px;
+}
+
+.expenses-filter__control span {
+  margin-bottom: 5px;
+}

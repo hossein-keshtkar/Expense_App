@@ -1,0 +1,39 @@
+.new-expense__controls {
+  position: relative;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  max-width: 500px;
+  margin: 0 auto;
+  /* margin-bottom: 1rem;
+  text-align: left; */
+}
+.new-expense__control {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.new-expense__control span {
+  position: absolute;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.new-expense__control input {
+  margin-top: 30px;
+  font: inherit;
+  padding: 0.5rem;
+  border-radius: 6px;
+  border: none;
+  width: 100%;
+}
+
+.new-expense__actions {
+  margin: 0 auto;
+  text-align: right;
+}
+
+.new-expense__actions button {
+  width: 100%;
+}
